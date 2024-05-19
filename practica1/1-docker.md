@@ -17,3 +17,9 @@ Docker hace más sencillas las instalaciones y las configuraciones sin tener que
 - **Docker Network:** Las redes Docker proporcionan conectividad entre los contenedores. Permiten que los contenedores se comuniquen entre sí y con el mundo exterior. Docker proporciona diferentes tipos de redes para diferentes casos de uso.
 - **Docker Hub:** Es un servicio en la nube para compartir aplicaciones y automatizar flujos de trabajo. Permite a los usuarios almacenar y compartir imágenes Docker públicas o privadas y trabajar en colaboración con otros miembros del equipo.
 - **Docker Registry:** Un registro Docker es un almacenamiento y distribución de imágenes Docker. Docker Hub es un ejemplo de un registro público, pero las organizaciones pueden alojar sus propios registros privados para almacenar y gestionar imágenes de manera segura.
+
+## Image
+Es un archivo único que contiene todos los programas, librerías, dependencias y configuraciones necesarias para instalar y/o ejecutar una aplicación o un conjunto de aplicaciones.
+
+![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
+
