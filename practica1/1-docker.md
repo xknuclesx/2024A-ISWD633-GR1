@@ -23,3 +23,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 
+## ¿Cuál es la relación entre una imagen y un contenedor? 
+
+```
+COMPLETAR 
+```
