@@ -25,12 +25,15 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+
 docker pull hello-world
 
 **¿Qué es nginx**
+
 Nginx es un servidor proxy inverso de código abierto para los protocolos HTTP, HTTPS, SMTP, POP3 e IMAP, así como un equilibrador de carga, una caché HTTP y un servidor web (servidor de origen). 
 
 Descargar la imagen  **nginx** en la versión **alpine**
+
 docker pull nginx:alpine
 
 ### Listar imágenes
@@ -53,6 +56,7 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+
 docker inspect hello-world
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
@@ -73,6 +77,7 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+
 docker rmi hello-world
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
