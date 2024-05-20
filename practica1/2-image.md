@@ -4,6 +4,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
+Una imagen puede ser una versión específica de una aplicación web con todas sus dependencias. Al ejecutar esta imagen, se crea un contenedor que instancia esa aplicación web, permitiendo interactuar con ella.
+
 # COMPLETAR 
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
