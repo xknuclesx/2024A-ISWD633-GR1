@@ -1,6 +1,6 @@
 # Imagen
 Es un archivo único que contiene todos los programas, librerías, dependencias y configuraciones necesarias para instalar y/o ejecutar una aplicación o un conjunto de aplicaciones.
-![Imagen](imagenes/imagen.JPG)
+![Imagen](imagenes/imagen.PNG)
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
