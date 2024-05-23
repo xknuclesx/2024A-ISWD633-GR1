@@ -14,7 +14,8 @@ Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de p
 
 docker run -d --name srv-web -p 3000:8080 nginx:alpine
 
-# COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
+![image](https://github.com/xknuclesx/2024A-ISWD633-GR1/assets/120606471/f5347a47-7249-4cac-8078-ed635d3ae572)
+
 
 ### Para mapear más de un puerto
 
