@@ -9,6 +9,8 @@ Esto le indica a Docker que asigne automáticamente puertos en tu host para todo
 ```
 docker run -P -d --name <nombre contenedor> <nombre imagen>:<tag> 
 ```
+**Recordar**
+No puedes mapear puertos a un contenedor existente directamente después de su creación con Docker. El mapeo de puertos debe especificarse en el momento de crear y ejecutar el contenedor.
 
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
 # COMPLETAR

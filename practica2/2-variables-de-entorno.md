@@ -12,4 +12,16 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 
 # COMPLETAR
 
+# COMPLETAR CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+
+### Crear un contenedor con mysql:8 , mapear todos los puertos
+# COMPLETAR
+
+### ¿El contenedor se está ejecutando?
+# COMPLETAR
+
+### ¿Identificar el problema?
+# COMPLETAR
+
+
 
