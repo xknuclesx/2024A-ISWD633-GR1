@@ -53,7 +53,11 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 
 ### ¿Qué bases de datos existen en el contenedor creado?
 information_schema 
+
 mysql             
+
 performance_schema
+
 sys
+
 ![image](https://github.com/xknuclesx/2024A-ISWD633-GR1/assets/120606471/1e15df3b-e2a0-4d78-a245-3d8ac987207b)
