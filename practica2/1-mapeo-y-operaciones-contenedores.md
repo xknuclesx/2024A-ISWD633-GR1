@@ -73,6 +73,7 @@ El problema se debe a que no se ha asignado un terminal de salida al contenedor 
 
 ### Para ejecutar un shell interactivo bidireccional en un contenedor de Docker especificado.
 Ejecutar un shell interactivo bidireccional en un contenedor de Docker significa abrir una sesión de shell en el contenedor que permite la interacción bidireccional entre la terminal local y el contenedor. Es decir, puedes enviar comandos desde tu terminal local al contenedor y recibir la salida de esos comandos de vuelta en tu terminal local, al igual que si estuvieras trabajando directamente en la terminal del contenedor.
+
 ![Imagen](imagenes/jenkins-it.PNG)
 ```
 docker exec -it <nombre contenedor> <programa o comando>
