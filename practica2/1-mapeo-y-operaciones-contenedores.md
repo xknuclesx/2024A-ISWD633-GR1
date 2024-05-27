@@ -76,7 +76,7 @@ Ejecutar un shell interactivo bidireccional en un contenedor de Docker significa
 
 ![Imagen](imagenes/jenkins-it.PNG)
 ```
-docker exec -it <nombre contenedor> <programa o comando>
+docker exec -i-t <nombre contenedor> <programa o comando>
 ```
 ó
 ```
