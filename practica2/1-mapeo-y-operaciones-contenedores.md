@@ -2,13 +2,13 @@
 ### Usando una forma más semántica cuando se especifican puertos
 
 ```
-docker run -d --name <nombre contenedor> --publish published=valor,target=valor <nombre imagen>:<tag> 
+docker run -d --name <nombre contenedor> --publish published=<valorPuertoHost>,target=<valor> <nombre imagen>:<tag> 
 ```
 ### Publicando todos los puertos
-Esto le indica a Docker que asigne automáticamente puertos en tu host para todos los puertos expuestos por el contenedor.
 ```
 docker run -P -d --name <nombre contenedor> <nombre imagen>:<tag> 
 ```
+-P: le indica a Docker que asigne automáticamente puertos aleatorios en tu host para todos los puertos expuestos por el contenedor.
 
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
 # COMPLETAR
