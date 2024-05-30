@@ -52,4 +52,8 @@ docker network ls
 
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
 
-# Eliminar las redes cre
+### Para eliminar las redes creadas
+```
+docker network rm <nombre de la red>
+```
+
